@@ -1,0 +1,9 @@
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+#cont_acerca{
+    background-color: #000;
+    color: aliceblue;
+}
