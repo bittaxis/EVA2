@@ -25,3 +25,35 @@ footer{
     margin-right: 30px;
     text-align: center;
 }
+
+form{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 40px;
+    border: white 5px double;
+    color: aliceblue;
+}
+
+#tarjetas{
+    margin: 20px;
+}
+
+#tarjetas img{
+    border: #000 5px solid;
+}
+
+#tarjetas h5{
+    padding-left: 40px;
+}
+
+#tarjetas p{
+    border: #000 5px solid;
+    padding: 5px;
+}
+
+#cant{
+    padding-right: 11%;
+    padding-left: 40%;
+}
