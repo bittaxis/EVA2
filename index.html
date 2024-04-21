@@ -9,9 +9,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
 </head>
-<body>
+<body class="bg-danger">
 
-    <nav class="navbar navbar-expand-lg bg-white">
+    <nav class="navbar navbar-expand-lg text-bg-danger">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html">
             <img class="text-center" src="imagenes/logo.webp" width="100px" height="100px" alt="No encontrado" >
@@ -22,8 +22,8 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-link text-center" href="login.html" ><h5>Iniciar Sesión</h5></a>
-              <a class="nav-link text-center" href="galeria.html"><h5>Galeria</h5></a>
+              <a class="nav-link text-center" href="login.html" ><h5 class="text-white">Iniciar Sesión</h5></a>
+              <a class="nav-link text-center" href="galeria.html"><h5 class="text-white">Galeria</h5></a>
             </div>
           </div>
         </div>
@@ -59,12 +59,90 @@
           </div>
 
 
-
+          <div id="cont_acerca">
+            <h4 class="text-center">Acerca de nosotros</h4>
+            <p class="text-center">
+                RUT EMPRESA: 11.111.111-1 <br>
+                DIRECCION EMPRESA: P. Sherman, calle Wallaby, 42, Sydney <br>
+                AÑO FUNDACION: 2024
+            </p>
+          </div>
 
       </main>
 
+      <div>
+        <div class="card mb-3 mx-auto" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img  style="height: 250px;" src="imagenes/noticia1.jpg" class="img-fluid"  alt="..." >
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Pescadores del Biobío anuncian movilizaciones y cortes de ruta</h5>
+                  <p class="card-text">Las protestas, que comenzarán a las 6 de la mañana, cargarán contra la negativa del Gobierno de autorizar la captura de caballa para contrarrestar la imposibilidad de pescar sardina.</p>
+                  <a href="https://www.cooperativa.cl/noticias/pais/region-del-biobio/pescadores-del-biobio-anuncian-movilizaciones-y-cortes-de-ruta-desde/2024-04-02/003305.html">
+                    <p class="card-text"><small class="text-body-secondary">Click para mas información</small></p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
 
-      <footer></footer>
+
+        <div class="card mb-3 mx-auto" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img style="height: 250px;" src="imagenes/noticia2.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Encuentran con vida a pescadores, padre e hijo, desaparecidos hace una semana en Isla Santa María</h5>
+                  <p class="card-text">Este domingo fueron encontrados con vida los dos pescadores que habían desaparecido hace una semana en la Isla Santa María, en la región del Bío Bío.</p>
+                  <a href="https://www.biobiochile.cl/noticias/nacional/region-del-bio-bio/2024/03/31/encuentran-con-vida-a-pescadores-padre-e-hijo-desaparecidos-hace-una-semana-en-isla-santa-maria.shtml">
+                    <p class="card-text"><small class="text-body-secondary">Click para mas información</small></p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        <div class="card mb-3 mx-auto" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img style="height: 280px;" src="imagenes/noticia3.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Comienzan análisis de proyecto que autorizan el uso de remanentes no consumidos por la pesca artesanal</h5>
+                  <p class="card-text">La Comisión de Intereses Marítimos, Pesca y Acuicultura conoció los alcances de la moción que permitiría la extracción del remanente de cuotas para la sardina común, sardina austral y anchoveta</p>
+                  <a href="https://www.senado.cl/comienzan-analisis-de-proyecto-que-autorizan-el-uso-de-remanentes-no">
+                    <p class="card-text"><small class="text-body-secondary">Click para mas información</small></p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+
+    <div>
+        <div class="card mx-auto" style="width: 18rem;">
+            <img id="imag" src="imagenes/perfil.jfif" class="card-img-top" alt="...">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Sebastian Nuñez Hernandez</li>
+              <li class="list-group-item">Ingenieria en Informatica</li>
+              <li class="list-group-item">Seccion POOOOOOOOONEEEER</li>
+            </ul>
+          </div>
+    </div>
+
+    <footer >
+        <nav class="navbar bg-black  ">
+            <div class="container-fluid">
+              <span class="navbar-brand mb-0 h1 mx-auto text-white">Asignatura: Programacion Front-End</span>
+            </div>
+          </nav>
+    </footer>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
