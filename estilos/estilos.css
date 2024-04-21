@@ -1,4 +1,8 @@
 
+nav a{
+    margin-left: 20px;
+}
+
 nav a:hover{
     text-decoration: underline;
 }
@@ -6,6 +10,9 @@ nav a:hover{
 #cont_acerca{
     background-color: #000;
     color: aliceblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 
@@ -17,6 +24,10 @@ nav a:hover{
     margin-left: 20px;
     padding: 5px;
 
+}
+
+#personal{
+    margin-bottom: 10px;
 }
 
 
@@ -34,26 +45,66 @@ form{
     padding: 40px;
     border: white 5px double;
     color: aliceblue;
+    border-radius: 20px;
+    box-shadow: 5px 7px 20px #eb510d;
+    background-color: #4D4D4D;
 }
+
+
+form input:hover{
+    transition: box-shadow 1s;
+    box-shadow: 5px 7px 20px #eb510d;
+}
+
 
 #tarjetas{
     margin: 20px;
 }
 
 #tarjetas img{
-    border: #000 5px solid;
+    border: #eb510d 5px solid;
 }
 
 #tarjetas h5{
     padding-left: 40px;
+    color: aliceblue;
 }
 
+
 #tarjetas p{
-    border: #000 5px solid;
     padding: 5px;
+    color: aliceblue;
+    
+}
+
+#caja{
+    background-color: #4D4D4D;
+    transition:  0.5s;
+    
+
+}
+
+#caja:hover{
+    transition: box-shadow 1s;
+    box-shadow: 3px 1px 51px 6px #eb510d;
+
 }
 
 #cant{
     padding-right: 11%;
     padding-left: 40%;
+}
+
+@media screen and (max-width: 800px){
+
+    nav a h4{
+
+        padding-right: 60px;
+    }
+
+    form{
+        margin-left: 10%;
+        margin-right: 10%; 
+    }
+
 }
